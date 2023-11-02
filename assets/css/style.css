@@ -45,7 +45,7 @@ header{
 	
 }
 .pss{
-/* 
+
 	background-color:#D0D3D4;
 	width: 80%;
 	border-color: black;
@@ -53,16 +53,16 @@ header{
 	border-color: black;
 	color: #01162b;
 	border-style: inset;
-	height: 80%; */
+	height: 80%;
 
-	border-color:black;
+/* 	border-color:black;
     background-color:#D0D3D4;
     width: 50%;
     height: 50%;
     text-align: center;
     font-size: large;
     font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 input{
 
