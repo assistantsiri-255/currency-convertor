@@ -1,69 +1,78 @@
 <html>
-        <head>
-                <title>Currency Convertor</title>
-                <link rel="stylesheet" href="assets/css/style.css">
-        </head>
-        
-        <body>
-                <header><h1>Currency Convertor</h1>
-                
-                <table  class ="pss" align="center" border="6">
-                             <tr >
-                                   <th >from</th>
-                                   <td   align="center" >
-                                         <select  id="from">
-                                           <option value="INR">INDIA</option>
-                                           <option value="USD">AMERICA</option>
-                                           <option value="AUS">AUSTRILIA</option>  
-						 <option value= "NPR">NEPAL</option>  
-						
-                                         </select>
-                                   </td>
-                             </tr>  
-                             
-                             
-
-                                    <tr>
-                                   <th>to</th>
-                                   <td  align="center">
-                                         <select id="to">
-                                           <option value="INR">INDIA</option>
-                                           <option value="USD">AMERICA</option>
-                                           <option value="AUS">AUSTRILIA</option>
-						 	 <option value= "NPR">NEPAL</option>  
-                                         
-                                         
-                                         
-                                         </select>
-                                   
-                                   </td>
-                             </tr>
-                             
-                             
-                             
-                             
-                             <tr>
-                                  <th>Enter Amount</th>
-                                  <td  align="center"><input type="number" id="amt"></td>
-                             
-                             </tr>
-                             
-                             
-                             
-       <tr>
-       <td  align="center"><button class ="convert" onclick="convert()">convert</button></td>
-       
-       </tr>                             
-                
-                </table>
-				<h3 id="result">
-				</h3>
-				
-                
-                
-        <script src="assets/js/main.js"></script>
-        </body>
+    <head>
+        <title>
+            Currency Converter 
+        </title>
+        <link rel="stylesheet" href="Assets/css/style.css">
 
 
+    </head>
+    <body>
 
+       <header> <table class = "header" align="center" border="1">
+          <tr>
+            <th class = "logo">Currency converter </th>
+          </tr>
+        </table>
+        <br>
+      </header>
+
+        <script src = "Assets/js/main.js"></script>
+      <table class= "interface" align="center" border="2">
+        <tr>
+          <th>FROM</th>
+          <td>
+            <select id = "from">
+              <option value = "INR">INDIA</option>
+              <option value = "USD">AMERICA </option>
+              <option value = "AUD">AUSTRALIA</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th>TO</th>
+          <td>
+            <select id = "to">
+              <option value = "INR">INDIA</option>
+              <option value = "USD">AMERICA </option>
+              <option value = "AUD">AUSTRALIA</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+
+          <th>ENTER AMOUNT</th>
+          <td><input type ="number" id = "amt"> </td>
+
+
+        </tr>
+        <tr>
+          <td><button onclick="convert()">CONVERT</button></td>
+        </tr>
+      </table>
+
+    </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  <div class="converter">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="fromCurrency"></select>
+    <span>to</span>
+    <select id="toCurrency"></select>
+    <button id="convert">Convert</button>
+  </div>
+  <div class="result" id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+
