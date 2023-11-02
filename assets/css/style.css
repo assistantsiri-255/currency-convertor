@@ -1,78 +1,90 @@
 .logo{
-        color:#C70039;
-        text-align:center;
-        font-size:50px
-    
-    
+		color:#C70039;
+		text-align:center;
+		font-size:50px
+	
+	
 }
 
 body{
 
-    background-color:#021224;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    border-color: black;
+	background-color:#021224;
+	/* display: flex;
+	justify-content: center; */
+	/* align-items: center; */
+	/* height: 100vh; */
+	/* margin: 0; */
+	border-color: black;
 
 }
 /* .table1{
-    background-color: aqua;
+	background-color: aqua;
 } */
 
 .convert{
        /* // background-color:white; */
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-        size: 0cap;
-        color: black;
-        /* box-shadow: 0 0 5px cyan, */
-        0 0 25px cyan;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+		
+		color: black;
+		/* box-shadow: 0 0 5px cyan, */
+		
 
-        
+		
 }
 header{
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 60px;
-    background-color:#5D6D7E;
-    text-align: center;
-    border-color: black;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	background-color:#5D6D7E;
+	text-align: center;
+	border-color: black;
 
-    /* justify-content: center;
-    align-items: center; */
-    
+	/* justify-content: center;
+	align-items: center; */
+	
 }
 .pss{
+/* 
+	background-color:#D0D3D4;
+	width: 80%;
+	border-color: black;
+	border-bottom: #021224;
+	border-color: black;
+	color: #01162b;
+	border-style: inset;
+	height: 80%; */
 
+	border-color:black;
     background-color:#D0D3D4;
-    width: 50%;
-    border-color: black;
-    border-bottom: #021224;
-    border-color: black;
-    color: #01162b;
-    border-style: inset;
-    height: 50%;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 input{
 
 background-color: #5D6D7E;
+width: 50%;
 
 }
 select{ 
-    background-color: #01162b;
-    color: #AEB6BF;
+	background-color: #01162b;
+	color: #AEB6BF;
+	width: 50%;
+	height: 25px;
 
 }
 
-button:hover{
-    width: 160px;
+button{
+	width: 160px;
     height: 30px;
-    font-weight: bolder;
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan,0 0 150px cyan;
-
-    
+	font-weight: bolder;
+		
+}
+button:hover{
+	background-color: #01162b;
+	color: white;
 }
