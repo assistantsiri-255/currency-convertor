@@ -5,8 +5,8 @@ function convert(){
 	x= document.getElementById('from'); //AMERICA
 	y = document.getElementById('to'); //INDIA
 	z = document.getElementById('amt'); //100 USD 
-	var currency = document.getElementById('currency');
-	var result = document.getElementById('result');
+	var currlogo = document.getElementById('currency');
+	var op = document.getElementById('result');
 	var S = 'https://v6.exchangerate-api.com/v6/eab7e00d7c6c00617e242dee/latest/'+x.value;
 	fetch(S).then(function(res){
 		return res.json();
@@ -18,8 +18,8 @@ function convert(){
 		var cf = cr[to.value]; // 83 
 		var fam = cf * amt.value; // 83*100
 		
-		result.innerHTML = fam;
-		currency.innerHTML = to.value;
+		op.innerHTML = fam;
+		currlogo.innerHTML = to.value;
 		
 	
 	})
