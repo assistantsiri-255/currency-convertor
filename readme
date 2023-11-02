@@ -1,0 +1,22 @@
+Real-Time Currency Converter
+
+This is a real-time currency converter web application that allows users to quickly and accurately convert between different currencies using live exchange rates.
+
+What It Does
+
+Users can select a base currency, enter an amount, and choose the target currency for conversion.
+The application fetches live exchange rate data from an external API to provide up-to-date conversion rates.
+It displays the converted amount in real-time.
+
+Technologies Used
+
+HTML, CSS, and JavaScript for the frontend.
+External API (mention the API name or source) for live exchange rate data.
+The project uses the fetch function to retrieve exchange rate data from an external API.
+JSON is used to parse and handle the data received from the API.
+Ensure that an internet connection is available to fetch the latest exchange rates.
+The user interface is designed to be user-friendly and responsive for various devices.
+
+
+
+
